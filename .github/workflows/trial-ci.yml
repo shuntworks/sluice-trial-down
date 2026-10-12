@@ -7,3 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "node 22, role downstream, token ${{ secrets.NPM_TOKEN }}, literal {{ keep }}"
+# hand edit that sluice should undo
