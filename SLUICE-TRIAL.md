@@ -1,3 +1,3 @@
 sluice trial
 
-after rejection
+while paused
