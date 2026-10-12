@@ -1,3 +1,3 @@
 sluice trial
 
-while paused
+after squash
