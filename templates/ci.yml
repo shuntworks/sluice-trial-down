@@ -1,0 +1,7 @@
+name: trial CI for {{ repo }}
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "node {{ node_version }}, role {{ role }}, token ${{ secrets.NPM_TOKEN }}, literal \{{ keep }}"
