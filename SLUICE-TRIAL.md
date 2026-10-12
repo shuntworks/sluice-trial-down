@@ -1,3 +1,3 @@
 sluice trial
 
-conflict test
+human-commit test
