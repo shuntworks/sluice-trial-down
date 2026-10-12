@@ -1,9 +1,9 @@
 # This file is managed by sluice and rendered from sheltoncyril/sluice-trial-mid:templates/ci.yml
 # Local edits are overwritten by the next sync; change the template instead.
-name: trial CI for sheltoncyril/sluice-trial-mid
+name: trial CI for shuntworks/sluice-trial-down
 on: workflow_dispatch
 jobs:
   noop:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "node 22, role midstream, token ${{ secrets.NPM_TOKEN }}, literal {{ keep }}"
+      - run: echo "node 22, role downstream, token ${{ secrets.NPM_TOKEN }}, literal {{ keep }}"
